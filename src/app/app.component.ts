@@ -9,16 +9,47 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
+  public appTitle = 'بوابة الرحلات';
   public appPages = [
     {
-      title: 'Home',
+      title: 'الصفحة الرئسية',
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'البحث',
+      url: '/home',
+      icon: 'search'
+    },
+    {
+      title: 'المفضلة',
+      url: '/home',
+      icon: 'star'
+    },
+    {
+      title: 'من نحن',
+      url: '/home',
+      icon: 'information'
+    },
+    {
+      title: 'اتصل بنا',
+      url: '/home',
+      icon: 'contact'
+    },
+    {
+      title: 'أخبر صديق',
+      url: '/home',
+      icon: 'share'
+    },
+
+    {
+      title: 'تقييم التطبيق ',
+      url: '/home',
+      icon: 'star-half'
+    },    {
+      title: 'الإعدادات ',
+      url: '/home',
+      icon: 'settings'
     }
   ];
 
