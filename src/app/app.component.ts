@@ -23,7 +23,7 @@ export class AppComponent {
     },
     {
       title: 'المفضلة',
-      url: '/home',
+      url: '/favourites',
       icon: 'star'
     },
     {
@@ -33,7 +33,7 @@ export class AppComponent {
     },
     {
       title: 'اتصل بنا',
-      url: '/home',
+      url: '/contactus',
       icon: 'contact'
     },
     {
@@ -48,7 +48,7 @@ export class AppComponent {
       icon: 'star-half'
     },    {
       title: 'الإعدادات ',
-      url: '/home',
+      url: '/settings',
       icon: 'settings'
     }
   ];

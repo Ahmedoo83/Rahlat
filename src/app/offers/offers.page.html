@@ -1,9 +1,41 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>offers</ion-title>
-  </ion-toolbar>
-</ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+       عروض السفر والسياحة
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
 
 <ion-content padding>
-
+Offers
 </ion-content>
+<ion-tabs>
+ <ion-tab-bar slot='buttom'>
+  <ion-tab-button tab="trips">
+  <ion-icon name="airplane"></ion-icon>
+  <ion-label> الرحلات</ion-label>
+</ion-tab-button>
+<ion-tab-button tab="flights">
+    <ion-icon name="airplane"></ion-icon>
+    <ion-label> الطيران</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="hotels">
+        <ion-icon name="business"></ion-icon>
+        <ion-label> الفنادق</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="transportation">
+          <ion-icon name="car"></ion-icon>
+          <ion-label> المواصلات</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="visas">
+            <ion-icon name="car"></ion-icon>
+            <ion-label> التأشيرات</ion-label>
+          </ion-tab-button>
+</ion-tab-bar>
+</ion-tabs>
